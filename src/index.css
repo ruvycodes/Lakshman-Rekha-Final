@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn:hover {
+    background-color: rgb(37 99 235);
+    color: white;
+}
+
+<<<<<<< HEAD
+.scan-files {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.tabs button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.tabs button.active {
+    border-bottom: 2px solid blue; /* Change the color as needed */
+}
+
+.tab-content {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.file-tab-content,
+.url-tab-content {
+    display: flex;
+    align-items: center;
+}
+
+.antivirus-table {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .antivirus-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .antivirus-name {
+    flex: 1;
+  }
+  
+  .antivirus-status {
+    display: flex;
+    align-items: center;
+  }
+  
+  .antivirus-status img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+=======
+>>>>>>> 9056b1db8d7308ab9e0b1ca804516d1d2b8af540
