@@ -31,7 +31,6 @@ const Articles = () => {
         }
     }
 
-<<<<<<< HEAD
     console.log(articles);
 
     return (
@@ -39,21 +38,12 @@ const Articles = () => {
             <h1 className="pt-12 mt-8 text-center text-xl font-bold" >Read Latest News On Hacking , Scams , Online Frauds And Much More</h1>
             {articles.map((item, index) => (
                 <div className="flex justify-center pt-8 " key={index}>
-=======
-    return (
-        <>
-            {articles.map((item, index) => (
-                <div className="flex justify-center pt-12 mt-2" key={index}>
->>>>>>> 9056b1db8d7308ab9e0b1ca804516d1d2b8af540
                     <div className="flex w-7/12 items-center bg-white rounded-md shadow-md overflow-hidden mb-4">
                         <img src={item.imageid == 78553754 ? imagearr[Math.floor(Math.random() * 4)] : `https://static.toiimg.com/thumb/imgsize-123456,msid-${item.imageid},width-300,resizemode-4/107214102.jpg`} alt='' className="w-32 h-32 object-cover" />
                         <div className="p-4 flex flex-col justify-between">
                             <h1 className="text-lg font-semibold">{item.hl}</h1>
                             <p className="text-sm text-gray-600 mt-2">{item.syn}</p>
-<<<<<<< HEAD
                             <a target="_blank" rel="noopener noreferrer" className="text-blue-600" href={item.wu}>Read More</a>
-=======
->>>>>>> 9056b1db8d7308ab9e0b1ca804516d1d2b8af540
                         </div>
                     </div>
                 </div>
@@ -62,8 +52,4 @@ const Articles = () => {
     );
 };
 
-<<<<<<< HEAD
 export default Articles;
-=======
-export default Articles;
->>>>>>> 9056b1db8d7308ab9e0b1ca804516d1d2b8af540
